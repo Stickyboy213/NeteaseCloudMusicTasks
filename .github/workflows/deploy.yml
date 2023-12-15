@@ -27,7 +27,7 @@ jobs:
       - name: Set up Python 3.6
         uses: actions/setup-python@v2
         with:
-          python-version: 3.6
+          python-version: 3.12.1
       - name: Install python dependencies
         run: pip install tencentcloud-sdk-python json5
       - name: Deploy
